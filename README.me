@@ -1,0 +1,9 @@
+```
+go run *.go --checkType=http --host=129.213.94.108 --payload="{\"jsonrpc\":\"2.0\",\"method\":\"eth_syncing\",\"params\": [],\"id\":1}"
+
+go run *.go --checkType=ws --host=129.213.94.108 --payload="{\"jsonrpc\":\"2.0\",\"method\":\"eth_syncing\",\"params\": [],\"id\":1}"
+```
+
+```
+GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build
+```
